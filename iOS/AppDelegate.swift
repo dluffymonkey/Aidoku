@@ -11,7 +11,7 @@ import Nuke
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
 
-    static let isSideloaded = Bundle.main.bundleIdentifier != "xyz.skitty.Aidoku"
+    static let isSideloaded = Bundle.main.bundleIdentifier != "xyz.skitty.Aidoku.0220"
 
     private lazy var loadingAlert: UIAlertController = {
         let loadingAlert = UIAlertController(title: nil, message: NSLocalizedString("LOADING_ELLIPSIS", comment: ""), preferredStyle: .alert)
